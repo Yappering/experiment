@@ -28,12 +28,17 @@
 </head>
 
 <body>
-    <h1>Collectibles Shop Preload</h1>
-    <h3>2024-09_collectibles_shop_preload</h3>
+    <h1>Collectibles Shop Bundle</h1>
+    <h3>2024-05_collectibles_shop_bundle</h3>
     <hr style="opacity: 0;">
-    Treatment 1: Preloads collectible shop payload
+    Treatment 1: Shop with bundle
     <hr style="opacity: 0;">
-    This treatment, when enabled, will preload <a class="link" href="https://canary.discord.com/api/v9/collectibles-categories?include_bundles=true">https://canary.discord.com/api/v9/collectibles-categories?include_bundles=true</a> on client startup
+    This treatment, when enabled, will fetch <a class="link" href="https://canary.discord.com/api/v9/collectibles-categories?include_bundles=true">https://canary.discord.com/api/v9/collectibles-categories?include_bundles=true</a> and display bundles in the shop
+    <hr style="opacity: 0;">
+    <hr style="opacity: 0;">
+    Treatment 2: Bundle + Use Now Non-Bundle
+    <hr style="opacity: 0;">
+    This treatment, when enabled, when the "Use Now" button is pressed on a bundle card in the shop, the items in that bundle will be equipped on your profile
 </body>
 
 </html>
